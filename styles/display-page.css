@@ -1,5 +1,59 @@
 main {
     width: 800px;
     height: 500px;
-    border: 2px double black;
+    border: 5px double black;
+}
+
+
+/*
+.all-boxes {
+    border: 1px solid red;
+    background-color: black;
+}
+*/
+
+.container_1 {
+    width: 800px;
+    height: 200px;
+    /* background-color: yellow; */
+    font-size: 0px;
+}
+
+.green-and-blue {
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    display: inline-block;
+}
+
+.green-box {
+    background-color: green;
+}
+
+.blue-box {
+    background-color: blue;
+}
+
+.container_2 {
+    font-size: 0px;
+}
+
+.gray-box,
+.black-box,
+.yellow-box {
+    height: 150px;
+    width: 33.33%;
+    display: inline-block;
+}
+
+.gray-box {
+    background-color: gray;
+}
+
+.black-box {
+    background-color: black;
+}
+
+.yellow-box {
+    background-color: yellow;
 }

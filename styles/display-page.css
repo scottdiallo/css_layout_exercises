@@ -1,19 +1,27 @@
+p {
+    text-align: center;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 2em;
+}
+
 main {
     width: 800px;
     height: 500px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container_1 {
     width: 800px;
-    height: 200px;
+    /*    height: 200px;*/
     font-size: 0px;
-    margin-bottom: -100px;
 }
 
 .green-and-blue {
     text-align: center;
     width: 400px;
-    height: 100px;
+    height: 200px;
     display: inline-block;
     border: 1px solid black;
 }
@@ -33,7 +41,7 @@ main {
 .gray-box,
 .black-box,
 .yellow-box {
-    height: 150px;
+    height: 300px;
     width: 33.33%;
     display: inline-block;
     border: 1px solid black;

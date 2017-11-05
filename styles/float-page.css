@@ -1,12 +1,28 @@
 body {
-  background-color: black;
-  color: white;
+    background-color: black;
+    color: white;
 }
 
 main {
-  padding-left: 90px;
-  padding-right: 90px;
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nebular-1,
+.nebular-2 {
+    height: 300px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nebular-1 {
+    float: left;
+}
+
+.nebular-2 {
+    float: right;
 }

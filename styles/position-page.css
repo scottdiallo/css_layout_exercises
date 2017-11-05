@@ -1,3 +1,8 @@
+body {
+    background: url(../images/outerspace_landscape.jpeg) no-repeat;
+    background-size: cover;
+}
+
 .nav-bar {
     padding-left: 60px;
     background-color: gray;

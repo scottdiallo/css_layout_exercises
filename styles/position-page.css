@@ -1,11 +1,8 @@
 .nav-bar {
-    /*    position: fixed;*/
-    padding-right: 60px;
-    width: 100%;
     padding-left: 60px;
     background-color: gray;
+    margin-bottom: 200px;
     height: 65px;
-    margin-bottom: 100px;
 }
 
 .cat-logo {
@@ -16,6 +13,12 @@
 
 nav ul {
     list-style-type: none;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+
+ul li {
+    display: inline-flex;
 }
 
 a:visited {

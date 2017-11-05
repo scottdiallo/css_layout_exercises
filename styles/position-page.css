@@ -9,12 +9,14 @@
     position: absolute;
     height: 50px;
     width: 50px;
+    margin-top: 10px;
 }
 
 nav ul {
     list-style-type: none;
     margin-left: 50px;
     padding-top: 20px;
+    display: inline-block
 }
 
 ul li {

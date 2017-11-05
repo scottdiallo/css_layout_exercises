@@ -1,1 +1,11 @@
+.nav-bar {
+    position: fixed;
+    padding-right: 60px;
+    padding-left: 60px;
+}
 
+main {
+    border: 10px dotted green;
+    width: 600px;
+    height: 300px;
+}

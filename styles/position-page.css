@@ -1,11 +1,52 @@
 .nav-bar {
-    position: fixed;
+    /*    position: fixed;*/
     padding-right: 60px;
+    width: 100%;
     padding-left: 60px;
+    background-color: gray;
+    height: 65px;
+    margin-bottom: 100px;
+}
+
+.cat-logo {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    color: black
 }
 
 main {
     border: 10px dotted green;
     width: 600px;
     height: 300px;
+    margin: auto;
+}
+
+.space-cat,
+.space-dog {
+    height: 200px;
+    width: 200px;
+}
+
+.space-cat {
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+}
+
+.space-dog {
+    position: relative;
+    left: 243px;
+    top: 219px;
 }
